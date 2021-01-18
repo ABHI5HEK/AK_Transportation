@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/honeydew"
+
+
+    >
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dashone"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="132dp"
+                    android:layout_height="132dp"
+                    android:background="@drawable/shapeone"
+                    android:elevation="5dp"
+                    android:layout_margin="7dp"
+                    >
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/ic_menu"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Service\nProviders"
+                            android:layout_marginBottom="3dp"
+                            android:textAlignment="center"
+                            android:textSize="12sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="@font/abg"
+                            android:gravity="center_horizontal" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="132dp"
+                    android:layout_height="132dp"
+                    android:layout_margin="7dp"
+
+                    android:background="@drawable/shapetwo"
+                    android:elevation="5dp"
+                    >
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/box"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Packers &amp; Movers "
+                            android:textSize="12sp"
+                            android:layout_marginBottom="3dp"
+                            android:gravity="center"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="@font/abg"
+                            />
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dashtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dashone"
+
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="132dp"
+                    android:layout_height="132dp"
+                    android:background="@drawable/shapefour"
+                    android:elevation="5dp"
+                    android:layout_margin="7dp"
+
+                    >
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/truck"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Logistics"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="12sp"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="@font/abg"
+                            android:gravity="center_horizontal" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="132dp"
+                    android:layout_height="132dp"
+
+                    android:layout_margin="7dp"
+                    android:background="@drawable/shapethree"
+                    android:elevation="5dp"
+                    >
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/box"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Parcel"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="@font/abg"
+                            />
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dashthree"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/dashtwo"
+            android:padding="10dp"
+            android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="132dp"
+                    android:layout_height="132dp"
+                    android:background="@drawable/shapetwo"
+                    android:elevation="5dp"
+                    android:layout_margin="7dp"
+                    >
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/ic_airplane"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fleet Contractor"
+                            android:layout_marginBottom="3dp"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="@font/abg"
+                            android:gravity="center_horizontal" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="132dp"
+                    android:layout_height="132dp"
+                    android:layout_margin="7dp"
+
+                    android:background="@drawable/shapeone"
+                    android:elevation="5dp"
+                    >
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/ic_bills"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pay"
+                            android:textSize="15sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="@font/abg"
+                            />
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+
+</RelativeLayout>

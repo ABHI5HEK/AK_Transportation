@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".CheckApi">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/appBarLayoutStyle"
+        android:layout_gravity="top"
+
+        >
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        android:id="@+id/checkframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            />
+    </FrameLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/bottombar"
+        android:src="@drawable/box"
+        android:id="@+id/floatingButton"
+        app:elevation="10dp"
+
+
+        />
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabCradleVerticalOffset="5dp"
+        app:fabCradleRoundedCornerRadius="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:fabCradleMargin="30dp"
+
+
+        android:id="@+id/bottombar">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            app:elevation="0dp"
+
+            app:menu="@menu/menu"/>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

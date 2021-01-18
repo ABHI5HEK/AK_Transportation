@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AK Transportation</string>
+    <string name="open">Open</string>
+    <string name="close">Close </string>
+    <!-- Dashboard-->
+    
+    <string name="services">Service Providers</string>
+    <string name="pay">Pay Bills</string>
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/serviceproviders"
+        android:title="Service Providers"/>
+    <item android:id="@+id/parcel"
+        android:title="Parcel Booking and Delivery Services"
+        />
+    <item android:id="@+id/packers"
+        android:title="Packers and Movers"/>
+    <item
+        android:id="@+id/logistics"
+        android:title="Logistics Services by Road"
+        />
+    <item
+        android:id="@+id/fleetcontractor"
+        android:title="Fleet Contractor"
+        />
+
+    <item
+        android:id="@+id/master"
+        android:title="Master"
+        />
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        />
+
+</menu>
